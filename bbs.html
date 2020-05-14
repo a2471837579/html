@@ -14,6 +14,7 @@ tbody tr td {
 	text-align: center;
 	line-height: 25px;
 	border-top-left-radius: 20px;
+	border: none;
 	border-bottom-left-radius: 20px;
 }
 .text1 {
@@ -64,8 +65,8 @@ tbody tr td {
 	border: none;
 	background-color: #00A2B6;
 }
-.submit a:hover {
-	background-color: #006C7A;
+.submit:hover {
+	background-color: #005762;
 }
 .areatext {
 	width: 60%;
@@ -74,24 +75,27 @@ tbody tr td {
 	float: left;
 	line-height: 25px;
 	color: #000000;
+	border-top-right-radius: 20px;
+	border: none;
+	border-bottom-right-radius: 20px;
 }
 </style>
 </head>
 
 <body>
-<table width="780" border="0" cellpadding="0" cellspacing="0">
+<table width="764" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td><h3>与我联系</h3></td>
+      <td width="764" height="27"><h3>与我联系</h3></td>
     </tr>
     <tr>
-      <td><input name="textfield" type="text" disabled="disabled" class="dext" id="textfield" value="您的称呼："><input name="textfield2" type="text" class="text1" id="textfield2"></td>
+      <td height="33"><input name="textfield" type="text" disabled="disabled" class="dext" id="textfield" value="您的称呼："><input name="textfield2" type="text" class="text1" id="textfield2"></td>
     </tr>
     <tr>
-      <td><input name="textfield3" type="text" disabled="disabled" class="dext" id="textfield3" value="联系电话："><input name="textfield3" type="text" class="text1" id="textfield4"></td>
+      <td height="37"><input name="textfield3" type="text" disabled="disabled" class="dext" id="textfield3" value="联系电话："><input name="textfield3" type="text" class="text1" id="textfield4"></td>
     </tr>
     <tr>
-      <td><input name="textfield4" type="text" disabled="disabled" class="dext" id="textfield5" value="联系邮箱："><input name="textfield4" type="text" class="text2" id="textfield6"><input name="textfield5" type="text" disabled="disabled" class="mail1" id="textfield7" value="@"><select name="select" class="mail2" id="select">
+      <td height="35"><input name="textfield4" type="text" disabled="disabled" class="dext" id="textfield5" value="联系邮箱："><input name="textfield4" type="text" class="text2" id="textfield6"><input name="textfield5" type="text" disabled="disabled" class="mail1" id="textfield7" value="@"><select name="select" class="mail2" id="select">
           <option>msn.com</option>
           <option>qq.com</option>
           <option>gmail.com</option>
@@ -99,10 +103,10 @@ tbody tr td {
       </select></td>
     </tr>
     <tr>
-      <td><input name="textfield6" type="text" disabled="disabled" class="d-area" id="textfield8" value="留言内容："><textarea name="textarea" class="areatext" id="textarea"></textarea></td>
+      <td height="113"><input name="textfield6" type="text" disabled="disabled" class="d-area" id="textfield8" value="留言内容："><textarea name="textarea" class="areatext" id="textarea"></textarea></td>
     </tr>
     <tr>
-      <td><input name="submit" type="submit" class="submit" id="submit" value="提交"></td>
+      <td height="45"><input name="submit" type="submit" class="submit" id="submit" value="提交"></td>
     </tr>
   </tbody>
 </table>

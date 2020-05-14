@@ -5,6 +5,10 @@ body {
 	font-size: 14px;
 	background-color: #B3B3B3;
 }
+.green {
+	background-color: #04CDE5;
+}
+
 .header {
 	width: 1000px;
 	background-color: #FFFFFF;
